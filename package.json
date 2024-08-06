@@ -1,0 +1,42 @@
+{
+  "name": "maxi-validate-permissions",
+  "version": "0.0.1",
+  "description": "This library provides utilities to manage and validate user permissions using JSON Web Tokens (JWT). The library includes functionalities to decode JWT, check token validity, and fetch user permissions.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "git+https://github.com/fakeaccount/functions.git"
+  },
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "permissions",
+    "JWT",
+    "axios"
+  ],
+  "author": "adanlazcano80",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/luxon": "^3.4.2",
+    "axios": "^1.7.2",
+    "jwt-decode": "^4.0.0",
+    "luxon": "^3.4.4",
+    "tsup": "^8.1.0",
+    "typescript": "^5.5.3"
+  },
+  "peerDependencies": {
+    "@types/luxon": "^3.4.2",
+    "axios": "^1.7.2",
+    "jwt-decode": "^4.0.0",
+    "luxon": "^3.4.4"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:8081/repository/maxi-npm-release/"
+  }
+}
